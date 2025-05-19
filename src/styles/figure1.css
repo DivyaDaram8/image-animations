@@ -1,0 +1,80 @@
+/* Basic Reset */
+body {
+  margin: 15px;
+  padding: 0;
+  font-family: "owners-xnarrow", sans-serif;
+  background: white;
+}
+
+/* Heading Section */
+.heading {
+  padding: 20px 5px 10px;
+}
+
+.heading__title {
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.heading__meta {
+  font-size: 14px;
+  color: #1a1a1a;
+  margin-top: 8px;
+  display: block;
+}
+
+/* Grid Styling */
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  padding: 30px 60px;
+}
+
+@media (min-width: 1600px) {
+  .grid {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+
+
+.grid__item {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.grid__item:hover {
+  transform: scale(1.02);
+} */
+
+/* Image Container */
+/* .grid__item-image {
+  width: 100%;
+  padding-top: 140%; 
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+} */
+
+/* Caption Styling */
+/* .grid__item-caption {
+  text-align: center;
+  margin-top: 10px;
+} */
+
+.grid__item-caption h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  text-transform: lowercase;
+  letter-spacing: 0.5px;
+}
+
+/* .grid__item-caption p {
+  font-size: 14px;
+  margin: 2px 0 0;
+  text-transform: lowercase;
+  color: #555;
+}  */

@@ -1,0 +1,64 @@
+.figure-detail {
+  display: flex;
+  height: 95vh;
+  width: 100%;
+  position: relative;
+}
+
+.figure-detail__right {
+  width: 100%;
+  position: relative;
+}
+
+.figure-detail__image {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+}
+
+.figure-detail__info {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  text-align: right;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.image-layer {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+  margin-top: 0.5rem;
+}
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h4 {
+  margin: 0 0 0.5rem 0;
+}
+
+p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
