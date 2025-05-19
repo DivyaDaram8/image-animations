@@ -5,7 +5,7 @@ import data1 from '../../src/db/data1';
 import data2 from '../../src/db/data2';
 import data3 from '../../src/db/data3';
 import data4 from '../../src/db/data4';
-import '../styles/FigureDetail.css';
+import '../styles/figureDetail.css';
 
 function FigureDetail() {
   const { id } = useParams();
